@@ -12,8 +12,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        print("Main2")
-        print("Main3")
+        print("Mais2")
+        print("Main36")
         print("Main4")
         print("Main5")
     }
