@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         print("Main36")
         print("Main4")
         print("Main5")
+        print("Main7")
     }
 
     @IBAction func ActionSignIn(_ sender: Any) {
