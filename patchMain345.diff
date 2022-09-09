@@ -1,0 +1,26 @@
+From 1b66431c27e3459ad36f4b58667a3eb960668fb3 Mon Sep 17 00:00:00 2001
+From: Kapil Sharma <KSharma@thegeneral.com>
+Date: Fri, 9 Sep 2022 09:46:30 +0530
+Subject: [PATCH] In Main Branch Main345 added
+
+---
+ PatchTest3/ViewController.swift | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/PatchTest3/ViewController.swift b/PatchTest3/ViewController.swift
+index 0503e46..203881d 100644
+--- a/PatchTest3/ViewController.swift
++++ b/PatchTest3/ViewController.swift
+@@ -13,6 +13,9 @@ class ViewController: UIViewController {
+         super.viewDidLoad()
+         // Do any additional setup after loading the view.
+         print("Main2")
++        print("Main3")
++        print("Main4")
++        print("Main5")
+     }
+ 
+ 
+-- 
+2.32.1 (Apple Git-133)
+
