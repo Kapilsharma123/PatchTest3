@@ -1,0 +1,54 @@
+From 562f28c5be63e1d1cfc54770f2bdb19d7784e31e Mon Sep 17 00:00:00 2001
+From: Kapil Sharma <KSharma@thegeneral.com>
+Date: Fri, 9 Sep 2022 10:15:44 +0530
+Subject: [PATCH] In mainBranchButtonred made
+
+---
+ PatchTest3/Base.lproj/Main.storyboard | 17 ++++++++++++++---
+ 1 file changed, 14 insertions(+), 3 deletions(-)
+
+diff --git a/PatchTest3/Base.lproj/Main.storyboard b/PatchTest3/Base.lproj/Main.storyboard
+index e4b05c9..d27bba6 100644
+--- a/PatchTest3/Base.lproj/Main.storyboard
++++ b/PatchTest3/Base.lproj/Main.storyboard
+@@ -17,9 +17,17 @@
+                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                         <subviews>
+                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kGT-ce-ksU">
+-                                <rect key="frame" x="148" y="294.5" width="118" height="31"/>
++                                <rect key="frame" x="98.5" y="294.5" width="217" height="100"/>
++                                <color key="backgroundColor" systemColor="systemRedColor"/>
++                                <constraints>
++                                    <constraint firstAttribute="height" constant="100" id="Xab-fA-yXR"/>
++                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="31" id="ep7-gC-wYE"/>
++                                </constraints>
+                                 <state key="normal" title="Button"/>
+-                                <buttonConfiguration key="configuration" style="plain" title="Go For Sign IN"/>
++                                <buttonConfiguration key="configuration" style="plain" title="Go For Sign IN">
++                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="30"/>
++                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
++                                </buttonConfiguration>
+                                 <connections>
+                                     <action selector="ActionSignIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wMh-NZ-ena"/>
+                                 </connections>
+@@ -27,7 +35,7 @@
+                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HEAD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hHw-BO-DLF">
+                                 <rect key="frame" x="168.5" y="211" width="77" height="33.5"/>
+                                 <constraints>
+-                                    <constraint firstAttribute="height" constant="50" id="qrD-Jh-j5W"/>
++                                    <constraint firstAttribute="height" constant="48" id="qrD-Jh-j5W"/>
+                                 </constraints>
+                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                 <nil key="textColor"/>
+@@ -57,5 +65,8 @@
+         <systemColor name="systemBackgroundColor">
+             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+         </systemColor>
++        <systemColor name="systemRedColor">
++            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
++        </systemColor>
+     </resources>
+ </document>
+-- 
+2.32.1 (Apple Git-133)
+
