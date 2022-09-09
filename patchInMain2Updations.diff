@@ -1,0 +1,27 @@
+From 49a8bbcb45cd30a78c34f2a527caac8420fb8c15 Mon Sep 17 00:00:00 2001
+From: Kapil Sharma <KSharma@thegeneral.com>
+Date: Fri, 9 Sep 2022 09:53:18 +0530
+Subject: [PATCH] In main2 branch..some editions updations
+
+---
+ PatchTest3/ViewController.swift | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/PatchTest3/ViewController.swift b/PatchTest3/ViewController.swift
+index 203881d..d73cdff 100644
+--- a/PatchTest3/ViewController.swift
++++ b/PatchTest3/ViewController.swift
+@@ -12,8 +12,8 @@ class ViewController: UIViewController {
+     override func viewDidLoad() {
+         super.viewDidLoad()
+         // Do any additional setup after loading the view.
+-        print("Main2")
+-        print("Main3")
++        print("Mais2")
++        print("Main36")
+         print("Main4")
+         print("Main5")
+     }
+-- 
+2.32.1 (Apple Git-133)
+
