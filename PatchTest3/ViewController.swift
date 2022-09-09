@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var buttonSignIn: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -18,6 +19,9 @@ class ViewController: UIViewController {
         print("Main5")
     }
 
-
+    @IBAction func ActionSignIn(_ sender: Any) {
+        print("GoForSignIn")
+    }
+    
 }
 
