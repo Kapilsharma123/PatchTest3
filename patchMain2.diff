@@ -1,0 +1,24 @@
+From 27453fe45f280b1c9fd8e9816755078c20ada3bc Mon Sep 17 00:00:00 2001
+From: Kapil Sharma <KSharma@thegeneral.com>
+Date: Fri, 9 Sep 2022 09:33:00 +0530
+Subject: [PATCH] Main2 added in main2 branch
+
+---
+ PatchTest3/ViewController.swift | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/PatchTest3/ViewController.swift b/PatchTest3/ViewController.swift
+index c4b7424..0503e46 100644
+--- a/PatchTest3/ViewController.swift
++++ b/PatchTest3/ViewController.swift
+@@ -12,6 +12,7 @@ class ViewController: UIViewController {
+     override func viewDidLoad() {
+         super.viewDidLoad()
+         // Do any additional setup after loading the view.
++        print("Main2")
+     }
+ 
+ 
+-- 
+2.32.1 (Apple Git-133)
+
